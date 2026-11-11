@@ -1,0 +1,27 @@
+{
+  "name": "snapdeal-seller-os",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Snapdeal SellerOS — an autonomous AI Virtual Key Account Manager (voice-first).",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "eval:engine": "tsx eval/engine-eval.ts",
+    "eval:agent": "tsx eval/agent-eval.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^3.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.7"
+  }
+}
