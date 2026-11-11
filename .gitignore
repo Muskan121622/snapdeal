@@ -1,1 +1,29 @@
+# Dependencies
 node_modules/
+
+# Build output (keep dist/ for GitHub Pages deployment)
+# dist/
+
+# Environment variables (never commit API keys!)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+tools/voice-monitor.log
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
